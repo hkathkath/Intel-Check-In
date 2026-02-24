@@ -1,7 +1,7 @@
 // All elemnts
-const form = document.getElementById('checkInForm');
-const nameInput = document.getElementById('attendeeName');
-const  teamselect = document.getElementById('teamSelect');
+const form = document.getElementById("checkInForm");
+const nameInput = document.getElementById("attendeeName");
+const  teamselect = document.getElementById("teamSelect");
 
 // Track Attendance
 let count = 0;
@@ -9,7 +9,7 @@ const maxCount = 50;
 
 
 // Form Submission
-form.addEventListener('submit', function(event) {
+form.addEventListener("submit", function(event) {
   e.preventDefault();
 
   // Get values

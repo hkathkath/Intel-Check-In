@@ -29,11 +29,11 @@ console.log('Progress: ${percentage}');
 
 // Update Team Counter
 const teamCounter = document.getElementById(team + "Count");
-const current = parseInt(teamCounter.textContext);
-console.log("Previous team count: ", current);
+teamCounter.textContent = parseInt(teamCounter.textContext) + 1;
 
-const newTotal = current + 1
-console.log("New team count: ", newTotal);
+// Welcome Message
+const message = 'Welcome, ${name} from ${teamName}';
+console.log(message);
 
-
+form.reset();
 });

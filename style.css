@@ -348,6 +348,60 @@ select {
   color: #475569;
 }
 
+/* Attendee List Section */
+.attendee-list-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+}
+
+.attendee-list-section h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.attendee-table-wrapper {
+  overflow-x: auto;
+}
+
+.attendee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.attendee-table thead {
+  background-color: #f1f5f9;
+}
+
+.attendee-table th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 600;
+  color: #475569;
+  font-size: 14px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.attendee-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #333;
+  font-size: 14px;
+}
+
+.attendee-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.attendee-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .hero {
